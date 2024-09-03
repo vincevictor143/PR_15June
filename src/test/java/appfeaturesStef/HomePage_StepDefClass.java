@@ -60,6 +60,7 @@ public class HomePage_StepDefClass
 	public void user_should_enter_the_password_as(String pwd) throws InterruptedException
 	{
 		homepage.finalSign(pwd);
+		System.out.println("Okay");
 	}
 	
 	
