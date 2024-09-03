@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-02T21:11:18 IST" name="Suite" finished-at="2024-09-02T21:14:40 IST" duration-ms="202360">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:appfeaturesStef.AppRunnerClass@158d2680]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-09-02T21:11:18 IST" name="Test" finished-at="2024-09-02T21:14:40 IST" duration-ms="202360">
+      <class name="appfeaturesStef.AppRunnerClass">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:appfeaturesStef.AppRunnerClass@158d2680]" started-at="2024-09-02T21:11:18 IST" name="setUpClass" finished-at="2024-09-02T21:11:19 IST" duration-ms="1763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1a2bcd56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:appfeaturesStef.AppRunnerClass@158d2680]" started-at="2024-09-02T21:11:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-02T21:12:54 IST" duration-ms="94790" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verfiy the title of page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:appfeaturesStef.AppRunnerClass@158d2680]" started-at="2024-09-02T21:12:54 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-02T21:13:55 IST" duration-ms="60376" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verfiy the cart icon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:appfeaturesStef.AppRunnerClass@158d2680]" started-at="2024-09-02T21:13:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-09-02T21:14:38 IST" duration-ms="43414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the sign in page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Home Page Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:appfeaturesStef.AppRunnerClass@158d2680]" started-at="2024-09-02T21:14:38 IST" name="tearDownClass" finished-at="2024-09-02T21:14:40 IST" duration-ms="1449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- appfeaturesStef.AppRunnerClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
