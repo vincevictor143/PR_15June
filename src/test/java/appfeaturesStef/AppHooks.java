@@ -27,13 +27,7 @@ public class AppHooks
 	{
 		ConfigReader cr=new ConfigReader();
         String browsername = cr.readConfig("browser");
-//		Properties prop=new Properties(); 
-//      String path =System.getProperty("user.dir")+"//src//test//resources//Config//config.properties";
-//		String path =System.getProperty("user.dir")+"//target//docker-resources//config.properties";
-//       FileInputStream fis=new FileInputStream(path);
-//		prop.load(fis);
-//		String browsername = prop.getProperty("browser");
-        
+	
     String maven_browsername = System.getProperty("clibrowser");
 	
     if(maven_browsername!=null)
