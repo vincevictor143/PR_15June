@@ -17,6 +17,7 @@ public class RemoteDriverFactory
 	
 	public WebDriver initBrowser(String browsername) throws MalformedURLException
 	{
+		String host="localhost";
 		Capabilities capabilities;
 		
 		if(browsername.equals("Chrome"))
@@ -28,7 +29,12 @@ public class RemoteDriverFactory
 			capabilities=new FirefoxOptions();
 		}
 		
-		driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilities);
+		if(System.getProperty("HUB_HOST")!= null)
+		{
+			host = System.getProperty("HUB_HOST");
+		}
+		
+		driver=new RemoteWebDriver(new URL("http://" +host+ ":4444/wd/hub"),capabilities);
 		
 		return driver;
 	}
